@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+}
+
+.box {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: black;
+}
+
+.title {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#canvas {
+    margin: 0;
+    width:100%;
+    height: 100%;
+    position: relative;
+}
+
+.under-title {
+    margin-top: 0;
+    width: 60%;
+    background-color: white;
+}
+
+.menu {
+    margin: 0;
+    width: 20%;
+    height: 40%;
+    background-color: rgba(44, 43, 43, 0.432);
+    position: absolute;
+
+    color: white;
+    text-align: start;
+
+    border-bottom-right-radius: 5%;
+    z-index: 1000;
+}
+
+.form {
+    margin-left: 50px;
+}
